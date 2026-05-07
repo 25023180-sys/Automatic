@@ -1,15 +1,10 @@
 package com.auction;
 
-/**
- * Class representing a simple bank account with basic operations.
- * This class is made final to satisfy Checkstyle's DesignForExtension rule.
- */
 public final class BadCode {
 
     /** The current balance of the account. */
     private int balance;
 
-    /** The magic number for demo purposes. */
     private static final int MAGIC_HUNDRED = 100;
 
     public BadCode(final int initialBalance) {
